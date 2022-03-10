@@ -9,48 +9,125 @@
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/moon.css">
-
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<style>
+			.foto { 
+				background-color: rgb(224, 112, 209);
+				color: black;
+				margin: 15px;
+				padding: 5px;
+				border: 3px solid black;
+				border-radius: 5px;
+				box-shadow: 0 12px #61035c, 0 18px rgba(0, 0, 0, 0.4);
+				font-size: 60px;
+				cursor: pointer;
+				position: relative;
+				border-radius: 15px;
+				top: 0; 
+			}
+			.foto2 { 
+				border-radius: 15px;
+			}
+			.foto1 { 
+				background-color: black;
+				color: black;
+				margin: 15px;
+				padding: 5px;
+				border: 5px solid rgb(207, 144, 7);
+				box-shadow: 0 12px #692f00, 0 18px rgba(0, 0, 0, 0.4);
+				font-size: 60px;
+				cursor: pointer;
+				border-radius: 60px;
+				position: relative;
+				top: 0; 
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
-					<section>
-						<h3>Laboratorio de Software</h3>
-						<p style="font-size: 30px;">Trabajo final</p>
+				<section data-transition="fade-in slide-out">
+					<section data-transition="fade-in slide-out">
+						<h2>Laboratorio de Software</h2>
+						<img class="foto2" src="./images/fruver.png">
+						<p style="font-size: 30px; margin-top: -20px; margin-bottom: 40px;">Trabajo final</p>
 						<div style="width: 70%; margin: auto;">
-							<h5>Registro de cultivos agroecológicos para la comercialización de bolsones</h5>	
+							<h4>Registro de cultivos agroecológicos para la comercialización de bolsones</h4>	
 						</div>
 					</section>
-					<section>
+					
+					<section data-transition="fade-in slide-out">
 						<div class="r-stack">
-							<div>
-								<h2>NOSOTRXS <span> &#128512 </span></h2>
-								<img style="margin: 30px;border-radius: 10px;" src="images/abril.jpeg" width="300" height="400">
-								<img style="margin: 30px; border-radius: 10px;" src="images/cesar.png" width="310" height="400">
+							<div class="container">
+								<div class="row">
+									<div class="col-12">
+										<h2>NOSOTRXS <span> &#128248 </span></h2>
+									</div>
+									<div class="col-6">
+										<h3  style=" margin-top: 100px;">Abril Jara</h3>
+									</div>
+									<div class="col-1"></div>
+									<div class="col-5">
+										<img class="foto" style=" height: 250px" src="images/abril.jpeg">
+									</div>
+									<div class="col-5">
+										<img class="foto" style="  height: 250px" src="images/cesar.png">
+									</div>
+									<div class="col-1"></div>
+									<div class="col-6">
+										<h3 style="margin-top: 30%;">Cesar Morales</h3>
+									</div>
+
+								</div>
 							</div>
 						</div>
 					</section>
 				</section>
-				<section>
-					<section>
+				<section data-transition="fade-in slide-out">
+					<section data-transition="fade-in slide-out">
 						<ul>
-							<h2>Indice:</h2>
-								<li>Problema abordado</li>
-								<li>Etapas</li>
-								<li>Entregables</li>
-								<li>Organizacion</li>
-								<li>Muestra de aplicacion</li>
+							<h2>Presentaremos:</h2>
+								<li>El problema abordado</li>
+								<li>Las etapas del proyecto</li>
+								<li>Los entregables</li>
+								<li>Como nos organizamos</li>
+								<li>Muestra de la aplicacion</li>
 						</ul>
 					</section>
 				</section>
-				<section>
-					<section>
+				<section data-transition="fade-in slide-out">
+					<section data-transition="fade-in slide-out">
 						<h3>Registro de cultivos agroecológicos para la comercialización de bolsones</h3>
 					</section>
 					<section>
+						<h3>Este problema consiste de tres planillas las
+							cuales están relacionadas:</h3>
+						<div class="container">
+							<div class="row">
+								<div class="col-2"></div>
+								<div class="col-8">
+									<ul>
+										<li>
+											<p  style="font-size: 30px;">Una planilla que describe la cantidad y cuales son los cultivos en los
+												distintos espacios de la quinta</p>
+										</li>
+										<li>
+											<p  style="font-size: 30px;">Una planilla que se utiliza para indicar que cultivos están en una 
+												familia determinada y si están en cosecha</p>
+										</li>
+										<li>
+											<p style="font-size: 30px;">La ultima planilla donde se especifican los cultivos y la cantidad
+												de bolsones que aportaran cada familia en esa quincena</p>
+										</li>
+									</ul>
+								</div>
+								<div class="col-2"></div>
+							</div>
+						</div>
+					</section>
+					<section data-transition="fade-in slide-out">
 						<h3>Problemas principales</h3>
 						<ul>
 							<li>Anotación rudimentaria de cultivos en canteros</li>
@@ -60,7 +137,7 @@
 							<li>Solapamiento de datos</li>
 						</ul>
 					</section>
-					<section>
+					<section data-transition="fade-in slide-out">
 						<h3>Que hicimos?</h3>
 						<ul>
 							<li>
@@ -69,39 +146,147 @@
 							</li>
 						</ul>
 					</section>
-					<section>
+					<section data-transition="fade-in slide-out">
 						<p>Como lo hicimos? ...</p>
 					</section>
 				</section>
-				<section>
-					<section>
-						<ul>
-							<h3>Etapas</h3>
-							<li>Entrevistas</li>
-							<li>Diseno</li>
-							<li>Primer entrega</li>
-							<li>Entrega final</li>
-						</ul>
+				<section data-transition="fade-in slide-out">
+					<ul>
+						<h3>Etapas</h3>
+						<li>Entrevistas</li>
+						<li>Diseno</li>
+						<li>Primer entrega</li>
+						<li>Entrega final</li>
+					</ul>
+				</section>
+				<section data-transition="fade-in slide-out">
+					<section data-transition="fade-in slide-out">
+						<div class="container">
+							<div class="row">
+								<div class="col-12">
+									<h3>Entrevistas <span>&#128203</span> </h3>
+								</div>
+								<div class="col-7">
+									<ul>
+										<li>
+											<p style="font-size: 30px;">
+												Se prepararon una serie de preguntas de manera colectiva
+											</p> 
+										</li>
+										<li>
+											<p style="font-size: 30px;">
+												Realizamos una visita a la Quinta de Saida y Nicolas
+											</p> 
+										</li>
+										<li>
+											<p style="font-size: 30px;">
+												Tanto los talleres como dicha entrevista tuvieron como fin el desarrollo de un trabajo final. El cual consiste en realizar una aplicacion movil que solucione dichos problemas y con esto
+												llevar un mejor registro de la informacion
+											</p> 
+										</li>
+									</ul>
+								</div>
+								<div class="col-5">
+									<img class="foto1" style="margin: 30px;border-radius: 10px;" src="/images/entrevista.JPE" width="380" height="500">
+								</div>
+							</div>
+						</div>
 					</section>
-					<section>
-						<h3>Entrevistas</h3>
-						<img style="margin: 30px;border-radius: 10px;" src="/images/entrevista.JPE" width="400" height="500">
+					<section data-transition="fade-in slide-out">
+						<div class="container">
+							<div class="row">
+								<div class="col-12">
+									<h3>Diseno <span>&#127912</span> </h3>
+								</div>
+								<div class="col-5">
+									<img class="foto1" style="margin: 30px;border-radius: 10px;" src="/images/mockupapp.jpeg" width="280" height="500">
+								</div>
+								<div class="col-7">
+									<ul class="mt-4">
+										<li>
+											<p style="font-size: 30px;">
+												Para el manejo de las Historias de Usuario utilizamos Trello 
+											</p> 
+										</li>
+										<li>
+											<p style="font-size: 30px;">
+												Para la creacion de mockups utilizamos Mockups Builder
+											</p> 
+										</li>
+										<li>
+											<p style="font-size: 30px;">
+												Para la comunicacion utilizamos Discord
+											</p> 
+										</li>
+										<li>
+											<p style="font-size: 30px;">
+												Con todas estas herramientas comenzamos a construir la aplicacion. Tanto
+												de manera sincronica como asincronica.
+											</p> 
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
 					</section>
-					<section>
-						<h3>Diseno</h3>
-						<img style="margin: 30px;border-radius: 10px;" src="/images/entrevista.JPE" width="400" height="500">
+					<section data-transition="fade-in slide-out">
+						<div class="container">
+							<div class="row">
+								<div class="col-12">
+									<h3>Primer entrega 💻 </h3>
+								</div>
+								<div style="margin-top: 80px;" class="col-7">
+									<ul>
+										<li>
+											<p style="font-size: 30px;">
+												Una vez obtuvimos todas las Historias de Usuario y los lineamientos comenzamos a realizar la aplicacion.
+											</p> 
+										</li>
+										<li>
+											<p style="font-size: 30px;">
+												Debido a que ya hemos trabajado con anterioridad juntxs, y teniendo una forma de tranajar, se nos hizo facil repartir las tareas.
+											</p> 
+										</li>
+									</ul>
+								</div>
+								<div class="col-5">
+									<img class="foto1" style="margin: 30px;border-radius: 10px;" src="/images/app terminada.jpeg" width="280" height="500">
+								</div>
+							</div>
+						</div>
 					</section>
-					<section>
-						<h3>Primer entrega</h3>
-						<img style="margin: 30px;border-radius: 10px;" src="/images/entrevista.JPE" width="400" height="500">
-					</section>
-					<section>
-						<h3>Entrega final ...</h3>
+					<section data-transition="fade-in slide-out">
+						<h3>Entrega final &#128241 ...</h3>
+						<div class="container">
+							<div class="row">
+								<div class="col-2"></div>
+								<div class="col-8">
+									<ul>
+										<li>
+											<p  style="font-size: 30px;">El resto de los módulos correspondiente a la parte de visitas, bolsones y
+												buscardor.</p>
+										</li>
+										<li>
+											<p  style="font-size: 30px;">Las visitas (primera y segunda planilla de la
+												presentación) sirven para poder armar el bolsón de cada quinta.</p>
+										</li>
+										<li>
+											<p style="font-size: 30px;">Los buscadores se utilizaron
+												en cada listar y se utilizaron con diferentes criterios cada una.</p>
+										</li>
+										<li>
+											<p style="font-size: 30px;">La distribucion de trabajo fue similar a la primera etapa</p>
+										</li>
+									</ul>
+								</div>
+								<div class="col-2"></div>
+							</div>
+						</div>
 					</section>
 				</section>
-				<section>
-					<h2>Gracias!</h2>
-					<img class="r-stretch" src="/images/todxs.jpeg" height="300" width="350" >
+				<section data-transition="fade-in slide-out">
+					<h2>Laboratorio de Software 2022</h2>
+					<img class="foto1 r-stretch"  src="/images/todxs.jpeg" height="300" width="350" >
 				</section>
 			</div>
 		</div>
@@ -120,6 +305,10 @@
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
+			
 		</script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	</body>
 </html>
